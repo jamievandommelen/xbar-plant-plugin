@@ -10,7 +10,22 @@ Tracks each plant's watering interval, so you never forget when it's time to wat
 
 ![Screenshot of the plugin](plant-plugin.png)
 
-### Installation
+## Installation
+
+Prerequisites:
+macOS – This plugin is built for macOS users with the xbar app installed.
+Ruby – This plugin is written in Ruby, so you'll need Ruby installed on your machine (which comes preinstalled on macOS).
+Steps:
+Install xbar (if you haven't already):
+Download and install xbar.
+Download the plugin:
+Clone this repository to your xbar plugin folder or download the file directly.
+git clone https://github.com/yourusername/plant-watering-xbar.git
+Alternatively, you can download the script and save it into your xbar plugin directory.
+Make the script executable: If you've cloned or downloaded the script, ensure that the file is executable.
+chmod +x plant_watering.rb
+Configure Your Plants: Open the script and update the plant data (name, last watered date, and watering interval) with your own plants.
+Reload xbar: Once everything is set up, reload xbar, and you should start seeing the plant watering reminders in your macOS menu bar!
 
 ## Code Overview
 
