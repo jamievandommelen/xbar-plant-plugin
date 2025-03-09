@@ -14,12 +14,15 @@ Tracks each plant's watering interval, so you never forget when it's time to wat
 
 ### Code Overview
 
-Plant Class
+## Plant Class
+
 Attributes:
 name: The name of the plant (e.g., "Alocasia Nebula").
 last_watered: The date the plant was last watered (in "YYYY-MM-DD" format).
 watering_interval: The number of days between each watering.
-Methods:
+
+## Methods:
+
 needs_watering?(current_date): Checks whether the plant needs watering based on the current date and watering interval.
 days_until_next_watering(current_date): Returns how many days until the next watering if the plant doesn't need watering yet.
 parse_date(date_str): Helper method to safely parse the date input and handle errors gracefully.
