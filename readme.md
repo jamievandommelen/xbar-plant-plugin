@@ -8,6 +8,8 @@ Displays a list of plants and their watering schedule in the macOS menu bar.
 Highlights which plants need watering with a red alert and shows the next watering date for plants that don’t need watering yet.
 Tracks each plant's watering interval, so you never forget when it's time to water your green friends.
 
+![Screenshot of the plugin](plant-plugin.png)
+
 ### Installation
 
 ### Code Overview
